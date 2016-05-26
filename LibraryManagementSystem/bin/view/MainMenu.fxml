@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox id="appContainer" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button id="checkoutButton" layoutX="75.0" layoutY="89.0" mnemonicParsing="false" onAction="#handlecheckoutButton" prefHeight="42.0" prefWidth="218.0" text="Checkout Book" visible="false" />
+            <Button id="addBookCopyButton" layoutX="75.0" layoutY="144.0" mnemonicParsing="false" onAction="#handleaddBookCopyButton" prefHeight="42.0" prefWidth="218.0" text="Add Book Copy" visible="false" />
+            <Button id="addMemberButton" layoutX="75.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleaddMemberButton" prefHeight="42.0" prefWidth="218.0" text="Add Member" visible="false" />
+            <Button id="listMemberButton" layoutX="320.0" layoutY="89.0" mnemonicParsing="false" onAction="#handlelistMemberButton" prefHeight="42.0" prefWidth="218.0" text="List Member" visible="false" />
+            <Text id="welcomeText" layoutX="491.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome ">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Text>
+            <Button id="listBookButton" layoutX="320.0" layoutY="144.0" mnemonicParsing="false" onAction="#handlelistBookButton" prefHeight="42.0" prefWidth="218.0" text="List Books" visible="false" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
